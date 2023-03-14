@@ -24,9 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "hgr_node = ros2_hgr.hgr_node:main",
-            "hgr_node_cam = ros2_hgr.hgr_node_cam:main",
-            "hgr_node_nano = ros2_hgr.hgr_node_nano:main"
+            "hgr_node = ros2_hgr.hgr_node:main"
         ],
     },
 )

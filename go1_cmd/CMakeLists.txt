@@ -8,25 +8,14 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-
-find_package(ros2_unitree_legged_msgs REQUIRED)
-find_package(unitree_legged_real REQUIRED)
-find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(unitree_nav REQUIRED)
-find_package(unitree_nav_interfaces REQUIRED)
-find_package(std_srvs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 add_executable(hgr_com src/hgr_com.cpp)
 ament_target_dependencies(
   hgr_com
   rclcpp
-  ros2_unitree_legged_msgs
   std_msgs
-  unitree_nav
-  unitree_nav_interfaces
-  std_srvs
   geometry_msgs)
 
 install(TARGETS

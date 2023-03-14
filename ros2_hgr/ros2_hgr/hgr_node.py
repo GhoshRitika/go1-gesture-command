@@ -22,7 +22,7 @@ from rclpy.node import Node
 from std_msgs.msg import Int32
 
 # need absolute path of package location for logging new data to train
-logging_prefix = '/home/avaz/courses/w23/winter-project/hgr_go1_ws/src/go1_hgr_ros2/ros2_hgr/'
+logging_prefix = '/home/ritz/WinterQ/Project/AllegroHandManipulation/Allegro_interface/src/go1-gesture-command/ros2_hgr'
 
 class KeyPointClassifier(object):
     def __init__(
