@@ -19,8 +19,6 @@ This repository contains two packages for using hand gestures to send motion com
 
 - The ros2_hgr launch file has defaults set to run the hgr_node with your computer's built-in webcam.
 
-* Author of [Fork](https://github.com/avazahedi/go1-gesture-command): Ava Zahedi
-
 ## Grasp Gestures ##
 
 0. Open Palms
@@ -32,3 +30,5 @@ This repository contains two packages for using hand gestures to send motion com
 6. 4 Finger Grasp
 
 [gesture](https://user-images.githubusercontent.com/60728026/226082118-d9508ec7-0bd2-4ee7-9335-b19a69a19a05.mp4)
+
+* Author of [Fork](https://github.com/avazahedi/go1-gesture-command): Ava Zahedi
